@@ -1,0 +1,28 @@
+.footer {
+  margin-top: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_tags {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border-bottom: 3px solid var(--mp-color-border);
+  span {
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: var(--mp-color-border);
+  }
+  margin-bottom: 32px;
+  z-index: 2;
+}
+
+.footer_img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}

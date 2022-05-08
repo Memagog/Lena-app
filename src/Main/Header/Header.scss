@@ -1,0 +1,48 @@
+.header {
+  max-height: 698px;
+}
+
+.header_content {
+  width: 100%;
+  background-color: var(--mp-color-header);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__text_block {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // text-align: center;
+  margin-left: 200px;
+}
+
+.header_image {
+  height: 610px;
+  width: 50%;
+}
+
+.header_border {
+  position: absolute;
+  max-height: 263px;
+  width: 100%;
+  z-index: 2;
+  top: 54%;
+}
+
+.header__name {
+  position: absolute;
+  top: 5%;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.header__title {
+  font-size: 48px;
+  width: 390px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.ux_portfolio {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ux_portfolio_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  width: 514px;
+  height: 40px;
+  font-size: 32px;
+  border-bottom: 4px solid #1F8A70;
+}
