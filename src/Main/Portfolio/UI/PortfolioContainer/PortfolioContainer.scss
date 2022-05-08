@@ -27,6 +27,7 @@
 }
 
 .odd {
+  cursor: pointer;
   grid-column-start: 1;
   grid-column-end: 4;
   height: 338px;
@@ -45,6 +46,7 @@
   flex-direction: row;
 }
 .even {
+  cursor: pointer;
   grid-column-start: 4;
   grid-column-end: 6;
   height: 338px;
@@ -59,6 +61,7 @@
 }
 
 .odd2 {
+  cursor: pointer;
   grid-column-start: 1;
   grid-column-end: 3;
   height: 338px;
@@ -73,6 +76,7 @@
   
 }
 .even2 {
+  cursor: pointer;
   grid-column-start: 3;
   grid-column-end: 6;
   height: 338px;
@@ -87,6 +91,7 @@
 
 
 .odd3 {
+  cursor: pointer;
   grid-column-start: 1;
   grid-column-end: 4;
   height: 338px;
@@ -99,6 +104,7 @@
   }
 }
 .even3 {
+  cursor: pointer;
   grid-column-start: 4;
   grid-column-end: 6;
   height: 338px;

@@ -15,14 +15,21 @@
   span {
     font-family: "Montserrat";
     font-weight: 500;
-    color: var(--mp-color-border);
+    
   }
   margin-bottom: 32px;
   z-index: 2;
+  a {
+    color: var(--mp-color-border);
+  }
+ 
 }
-
+a:hover {
+  color: white;
+}
 .footer_img {
   width: 100%;
-  z-index: 0;
-  position: absolute;
+  max-height: 200px;
+  // z-index: 0;
+  // position: absolute;
 }

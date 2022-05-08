@@ -2,7 +2,9 @@ body {
   margin: 0;
   background-color: var(--mp-color-background);
 }
-
+a {
+  text-decoration: none;
+}
 :root {
   width: 100%;
   --mp-color-header: #FFCBAE;
