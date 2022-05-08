@@ -1,0 +1,159 @@
+.ux_portfolio {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ux_portfolio_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  width: 514px;
+  height: 40px;
+  font-size: 32px;
+  border-bottom: 4px solid #1F8A70;
+}
+
+.ux_portfolio_grid {
+  margin-top: 80px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.illustrtion_odd {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 338px;
+  border: 4px solid var(--mp-color-border);
+  border-radius: 30px;
+  margin: 10px;
+  background-color: #fabacf;
+  &:hover {
+    transition: 1200ms;
+    .title {
+      color: aliceblue;
+      transition: 500ms;
+    }
+  }
+  display: flex;
+  flex-direction: row;
+}
+.illustrtion_even {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  height: 338px;
+  border: 4px solid var(--mp-color-border);
+  border-radius: 30px;
+  margin: 10px;
+  &:hover {
+    background-color: var(--mp-color-yellow);
+    transition: 1200ms;
+    
+  }
+}
+
+.illustrtion_odd2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 338px;
+  border: 4px solid var(--mp-color-border);
+  border-radius: 30px;
+  margin: 10px;
+  &:hover {
+    background-color: var(--mp-color-orange);
+    transition: 1200ms;
+    
+  }
+  
+}
+.illustrtion_even2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  height: 338px;
+  border: 4px solid var(--mp-color-border);
+  border-radius: 30px;
+  margin: 10px;
+  &:hover {
+    background-color: var(--mp-color-blue);
+    transition: 1200ms;
+  }
+}
+
+
+.illustrtion_odd3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 338px;
+  border: 4px solid var(--mp-color-border);
+  border-radius: 30px;
+  margin: 10px;
+  &:hover {
+    background-color: var(--mp-color-dark-blue);
+    transition: 1200ms;
+  }
+}
+.illustrtion_even3 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  height: 338px;
+  border: 4px solid var(--mp-color-border);
+  border-radius: 30px;
+  margin: 10px;
+  &:hover {
+    background-color: var(--mp-color-dark-orange);
+    transition: 1200ms;
+  }
+}
+
+.title_block {
+  height: 100%;
+  position: relative; 
+  top: 100px; 
+  left: 60px; 
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  z-index: 5;
+}
+
+.illustrations {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  width: 100%;
+}
+
+.illustration {
+  z-index: 3;
+  position: relative; 
+  top: 0px; 
+  left: -87px;
+  // min-width: 965px;
+  border-radius: 30px;
+}
+
+.tel2 {
+  float: left; 
+  position: relative; 
+  top: 0px; 
+  left: -810px; 
+}
+.MacBookPro_container {
+  height: 100%;
+  // border-radius: 10%;
+  img {
+    border-radius: 0% 4%;
+  }
+}
+.MacBookPro {
+  float: left; 
+  position: relative;
+ 
+  top: -30px;
+}
